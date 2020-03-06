@@ -3,5 +3,6 @@ class ResponseException(Exception):
         self.message = message
         self.status_code = status_code
 
+        
     def __str__(self):
         return self.message + f"Response gave status code {self.status_code}"

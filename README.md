@@ -28,7 +28,7 @@
 * [Contributing](#contributing)
 * [Contact](#contact)
 * [To Do](#todo)
-
+* [TroubleShooting](#Trouble-shooting)
 
 
 <!-- ABOUT THE PROJECT -->
@@ -80,3 +80,7 @@ Your Name - [@roshancode](https://twitter.com/roshancode) - lamichhaner40@gmail.
 ## ToDo
 * Tests
 * Add Error Handling
+
+
+# Trouble Shooting
+Spotify Oauth token expires very quickly, If you come across a KeyError this could be caused by an expired token. So just refer back to step 3 in local setup, and generate a new token!

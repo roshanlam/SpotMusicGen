@@ -8,12 +8,12 @@
 
   <p align="center">
 
-     <br />
-    <a href="https://github.com/roshanlam/SpotMusicGen/issues">Report Bug</a>
+  <br />
+   <a href="https://github.com/roshanlam/SpotMusicGen/issues">Report Bug</a>
     ·
-    <a href="https://github.com/roshanlam/SpotMusicGen/issues">Request Feature</a>
+   <a href="https://github.com/roshanlam/SpotMusicGen/issues">Request Feature</a>
     ·
-    <a href="https://github.com/roshanlam/SpotMusicGen/pulls">Send a Pull Request</a>
+   <a href="https://github.com/roshanlam/SpotMusicGen/pulls">Send a Pull Request</a>
   </p>
 </p>
 

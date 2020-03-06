@@ -24,9 +24,10 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#setup)
+* [Set Up](#setup)
 * [Contributing](#contributing)
 * [Contact](#contact)
+* [To Do](#todo)
 
 
 
@@ -75,3 +76,7 @@ Contributions are what make the open source community such an amazing place to b
 ## Contact
 
 Your Name - [@roshancode](https://twitter.com/roshancode) - lamichhaner40@gmail.com
+
+## ToDo
+* Tests
+* Add Error Handling

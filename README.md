@@ -1,6 +1,6 @@
-[![Forks][forks-shield]
-[![Stargazers][stars-shield]
-[![Issues][issues-shield]
+[Forks][forks-shield]
+[Stargazers][stars-shield]
+[Issues][issues-shield]
 
 <br />
 <p align="center">

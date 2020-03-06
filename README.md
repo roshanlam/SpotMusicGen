@@ -104,4 +104,4 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@roshancode](https://twitter.com/roshancode) - email@example.com
+Your Name - [@roshancode](https://twitter.com/roshancode) - lamichhaner40@gmail.com

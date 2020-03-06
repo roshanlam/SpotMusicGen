@@ -1,6 +1,6 @@
-[![Forks][forks-shield][forks-url]
-[![Stargazers][stars-shield][stars-url]
-[![Issues][issues-shield][issues-url]
+[![Forks][forks-shield]
+[![Stargazers][stars-shield]
+[![Issues][issues-shield]
 
 <br />
 <p align="center">
@@ -91,6 +91,6 @@ Spotify Oauth token expires very quickly, If you come across a `KeyError` this c
 
 
 
-[issues-shield]:https://img.shields.io/github/issues/roshanlam/SpotMusicGen
-[stars-shield]: https://img.shields.io/github/stars/roshanlam/SpotMusicGen
-[forks-shield]: https://img.shields.io/github/forks/roshanlam/SpotMusicGen
+[issues-shield]:https://img.shields.io/github/issues/roshanlam/SpotMusicGen?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/roshanlam/SpotMusicGen?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/roshanlam/SpotMusicGen?style=for-the-badge

@@ -45,8 +45,9 @@ Hasn't there been a time when you listened to song but didn't want to do the wor
 ### Built With
 * Python
 * Youtube DL
-* 
-*
+* Google Auth Oauthlib
+* Google Api Python Client
+* Requests
 
 
 

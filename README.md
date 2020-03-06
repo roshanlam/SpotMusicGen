@@ -1,3 +1,7 @@
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
 <br />
 <p align="center">
   <a href="https://github.com/roshanlam/ReadMeTemplate/">
@@ -84,3 +88,9 @@ Your Name - [@roshancode](https://twitter.com/roshancode) - lamichhaner40@gmail.
 
 # Trouble Shooting
 Spotify Oauth token expires very quickly, If you come across a `KeyError` this could be caused by an expired token. So just refer back to step 3 in local setup, and generate a new token!
+
+
+
+[issues-shield]:https://img.shields.io/github/issues/roshanlam/SpotMusicGen
+[stars-shield]: https://img.shields.io/github/stars/roshanlam/SpotMusicGen
+[forks-shield]: https://img.shields.io/github/forks/roshanlam/SpotMusicGen

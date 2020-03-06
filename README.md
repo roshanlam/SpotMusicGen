@@ -43,47 +43,30 @@ Hasn't there been a time when you listened to song but didn't want to do the wor
 
 
 ### Built With
-* Python
-* Youtube DL
-* Google Auth Oauthlib
-* Google Api Python Client
-* Requests
+* Youtube Data API 
+* Spotify Web API
+* Requests Library 
+* Youtube_dl 
 
 
+## SetUp
 
-<!-- GETTING STARTED -->
-## Getting Started
+1. Install All Dependencies
+   `pip3 install -r requirements.txt`
+   
+2. Collect You Spotify User ID and Oauth Token From Spotfiy and add it to secrets.py file
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+3. To Collect your Oauth Token, Visit this url here: Get Oauth and click the Get Token button
 
-### Prerequisites
+4. Enable Oauth For Youtube and download the client_secrets.json
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+5. Run the File
+    `python3 create_playlist.py`
 
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+you'll immediately see `Please visit this URL to authorize this application: <some long url>`
+click on it and log into your Google Account to collect the `authorization code`
 
 
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **extremely appreciated**.
@@ -95,7 +78,6 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-<!-- CONTACT -->
 ## Contact
 
 Your Name - [@roshancode](https://twitter.com/roshancode) - lamichhaner40@gmail.com

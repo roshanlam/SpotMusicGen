@@ -79,7 +79,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Contact
 
-Your Name - [@roshancode](https://twitter.com/roshancode) - lamichhaner40@gmail.com
+My Name - [Roshan Lamichhane](https://twitter.com/roshancode) - lamichhaner40@gmail.com
 
 ## ToDo
 * Tests

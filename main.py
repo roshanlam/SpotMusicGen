@@ -25,7 +25,6 @@ from secrets import spotify_token, spotify_user_id
     api_verison = "v1"
     
     # Client's Secret Info will be in client_secret.json
-    
     client_secrets_file = "client_secret.json"
     
     # Get the credentials and create an API (client)
@@ -41,9 +40,9 @@ from secrets import spotify_token, spotify_user_id
     api_service_name, api_version, credentials=credentials)
       return youtube_client
       
-   def get_liked_videos(self): 
-      """ Gets all the liked videos & creates a list of important songs """
-     request = self.youtube_client.videos().list(
+    def get_liked_videos(self): 
+        """ Gets all the liked videos & creates a list of important songs """
+         request = self.youtube_client.videos().list(
          part="snippet, contentDetails, statistics", myRating="like")
 
     response = request.execute()

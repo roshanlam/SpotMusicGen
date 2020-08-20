@@ -8,7 +8,6 @@ import requests
 import youtube_dl
 
 
-# these imports below are from files
 from expec import ResponseException
 from secrets import spotify_token, spotify_user_id
 

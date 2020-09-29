@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Hasn't there been a time when you listened to song but didn't want to do the work to put that song on your spotify playlist. Cause that happened to me and I wanted to slove it and does is my solution. What SpotMusicGen does is that it takes all of the liked songs from your youtube channel and generates a spotify playlist.
+Hasn't there been a time when you listened to song but didn't want to do the work to put that song on your spotify playlist. Cause that happened to me and I wanted to slove it and this is my solution. What SpotMusicGen does is it takes all of the liked songs from your youtube channel and generates a spotify playlist.
 
 
 ### Built With
@@ -84,7 +84,7 @@ My Name - [Roshan Lamichhane](https://twitter.com/roshancode) - lamichhaner40@gm
 ## ToDo
 * Tests
 * Add Error Handling
-* Create Another Version for Soundcloud
+* Add a feature for Soundcloud
 
 # Trouble Shooting
 Spotify Oauth token expires very quickly, If you come across a `KeyError` this could be caused by an expired token. So just refer back to step 3 in local setup, and generate a new token!

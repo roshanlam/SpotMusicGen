@@ -11,6 +11,7 @@ import youtube_dl
 from expec import ResponseException
 from secrets import spotify_token, spotify_user_id
 
+
     class Main: 
       def __int__(self): 
           self.youtube_client = self.get_youtube_client()
@@ -46,8 +47,17 @@ from secrets import spotify_token, spotify_user_id
 
     response = request.execute()
     
-    # collects each video and its important info.
+    # Gets Users Playlist with the Query Songs
+    def get_users_playlist(self):
+        requestPlaylist = youtube.search().list(
+        part="snippet",
+        maxResults=100,
+        q="Songs")
+       
+    PlaylistReponse = request.execute()
     
+    
+    # collects each video and its important info.
     for item in response["items"]
         video_title = item["snippet"]["title"]
         youtube_url = "https://www.youtube.com/watch?v={}".format(

@@ -8,7 +8,7 @@
     <img src="./logo.png" alt="Logo" width="200" height="150">
   </a>
 
-  <h3 align="center">SpotMusicGen</h3>
+  <h3 align="center">SpotMusicGen (Development) </h3>
 
   <p align="center">
 

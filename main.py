@@ -15,6 +15,9 @@ from secrets import spotify_token, spotify_user_id
           self.youtube_client = self.get_youtube_client()
           self.all_song_info = {}
       
+    # After the Soundcloud and YouTube Playlist part is done
+    # Create a print statement which will give users options on what they want to do
+    
       def get_youtube_client(self):
         # Do not leave this line below enabled in Production, this basically disable's OAuthlib's HTTPS Verification when running locally. 
         os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"

@@ -48,7 +48,7 @@ from secrets import spotify_token, spotify_user_id
 
     response = request.execute()
     
-    # Gets Users Playlist with the Query Songs
+    # Gets Users Playlist with the Query Songs, haven't tested it yet. 
     def get_users_playlist(self):
         requestPlaylist = youtube.search().list(
         part="snippet",

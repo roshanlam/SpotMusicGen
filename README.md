@@ -85,6 +85,7 @@ My Name - [Roshan Lamichhane](https://twitter.com/roshancode) - lamichhaner40@gm
 * Tests
 * Add Error Handling
 * Add a feature for Soundcloud
+* Fix the indentation
 
 # Trouble Shooting
 Spotify Oauth token expires very quickly, If you come across a `KeyError` this could be caused by an expired token. So just refer back to step 3 in local setup, and generate a new token!

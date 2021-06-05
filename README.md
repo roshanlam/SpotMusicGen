@@ -8,7 +8,7 @@
     <img src="./logo.png" alt="Logo" width="200" height="150">
   </a>
 
-  <h3 align="center">SpotMusicGen (Development) </h3>
+  <h3 align="center">SpotMusicGen (Master Branch) </h3>
 
   <p align="center">
 
@@ -42,10 +42,10 @@ Hasn't there been a time when you listened to song but didn't want to do the wor
 
 
 ### Built With
-* Youtube Data API 
-* Spotify Web API
-* Requests Library 
-* Youtube_dl 
+* Google Auth Oauthlib
+* Google's Api Python client
+* Youtube_dl
+* Spotify's API
 
 
 ## SetUp
@@ -53,11 +53,9 @@ Hasn't there been a time when you listened to song but didn't want to do the wor
 1. Install All Dependencies
    `pip3 install -r requirements.txt`
    
-2. Collect Your Spotify User ID and Oauth Token From Spotfiy and add it to secrets.py file
+2. Get your YouTube Data API Credentials and save it as `user_secret.json`
 
-3. To Collect your Oauth Token, Visit this url here: Get Oauth and click the Get Token button
-
-4. Enable Oauth For Youtube and download the client_secrets.json
+3. Get your spotify web api oauth token. It needs to be sourced in your environment as `SPOT_AUTH_TOKEN`
 
 5. Run the File
     `python3 create_playlist.py`
@@ -79,7 +77,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Contact
 
-My Name - [Roshan Lamichhane](https://twitter.com/roshancode) - lamichhaner40@gmail.com
+My Name - [Roshan Lamichhane](https://twitter.com/roshancode) - roshanlamichhanenepali@gmail.com
 
 ## ToDo
 * Tests

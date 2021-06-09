@@ -1,0 +1,5 @@
+spotipy
+requests
+oauth2client
+youtube-title-parse
+google-api-python-client

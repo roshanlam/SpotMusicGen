@@ -27,7 +27,6 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
 * [Set Up](#setup)
 * [Contributing](#contributing)
 * [Contact](#contact)
@@ -40,28 +39,24 @@
 
 Hasn't there been a time when you listened to song but didn't want to do the work to put that song on your spotify playlist. Cause that happened to me and I wanted to slove it and this is my solution. What SpotMusicGen does is it takes all of the liked songs from your youtube channel and generates a spotify playlist.
 
-
-### Built With
-* Google Auth Oauthlib
-* Google's Api Python client
-* Youtube_dl
-* Spotify's API
-
-
 ## SetUp
 
 1. Install All Dependencies
    `pip3 install -r requirements.txt`
    
-2. Get your YouTube Data API Credentials and save it as `user_secret.json`
+2. Get your Credentials and save it in `.env`
 
-3. Get your spotify web api oauth token. It needs to be sourced in your environment as `SPOT_AUTH_TOKEN`
+https://console.cloud.google.com/apis/credentials
 
-5. Run the File
-    `python3 create_playlist.py`
+https://developer.spotify.com/dashboard/applications
 
-you'll immediately see `Please visit this URL to authorize this application: <some long url>`
-click on it and log into your Google Account to collect the `authorization code`
+
+3. Add redirect uri in the edit settings for spotify
+
+4. Run the File
+    `python3 main.py`
+   
+5. Enter the playlist id and the name you want it to be on spotify
 
 
 ## Contributing
@@ -77,18 +72,13 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Contact
 
-My Name - [Roshan Lamichhane](https://twitter.com/roshancode) - roshanlamichhanenepali@gmail.com
+Email - roshanlamichhanenepali@gmail.com
 
 ## ToDo
 * Tests
 * Add Error Handling
 * Add a feature for Soundcloud
-
-* Add a Voice Assitant that will play/stop/repeat music for you while you are coding
-# Trouble Shooting
-Spotify Oauth token expires very quickly, If you come across a `KeyError` this could be caused by an expired token. So just refer back to step 3 in local setup, and generate a new token!
-
-
+* Add a Voice Assistant that will play/stop/repeat music for you while you are coding
 
 [issues-shield]:https://img.shields.io/github/issues/roshanlam/SpotMusicGen?style=for-the-badge
 [stars-shield]: https://img.shields.io/github/stars/roshanlam/SpotMusicGen?style=for-the-badge
